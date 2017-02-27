@@ -1,0 +1,27 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FundingHUb App</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <br>
+  <h1>Browse active projects</h1>
+  <br><label for="proj_name_a">Name:</label><input type="text" id="proj_name_a" placeholder="Click on browse projects to see a list of active projects"</input>
+  <br><br><button id="browse_project" onclick="browseProject()">Browse projects</button>
+  <br><br><h1>Create Project</h1>
+  <br><label for="proj_name">Name:</label><input type="text" id="proj_name" placeholder="e.g., fun project"></input>
+  <br><label for="amount">Amount:</label><input type="text" id="amount" placeholder="e.g., 95 (in wei)"></input>
+  <br><label for="deadline">Deadline:</label><input type="text" id="deadline" placeholder="e.g., 5 (in minutes)"></input>
+  <br><br><button id="create_project" onclick="createProject()">Create project</button>
+  <br><br><h1>Contribute to a project</h1>
+  <br><label for="proj_name_c">Name:</label><input type="text" id="proj_name_c" placeholder="e.g., fun project"></input>
+  <br><label for="amount_c">Amount:</label><input type="text" id="amount_c" placeholder="e.g., 95 (in wei)"></input>
+  <br><br><button id="contribute_project" onclick="contributeProject()">Contribute to project</button>
+  <br><br>
+</body>
+</html>
